@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../imges/bg.jpg);
+    background-size: cover;
+}
+header{width: 100%;
+    height: 60px;
+    background-color: #ffe6a7;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    opacity: 0.7;
+    overflow: auto;
+    }
+    .header-title{
+        color: #000000;
+        padding: 10px;
+    }
+    .headerlogo{width: 70px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    }
+    .headermenu{list-style:none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 180px;
+    }
+    .menuitem{display: inline-block;
+    margin-right: 30px;}
+    .menuitem a {text-decoration: none;
+        font-size: 18px;
+    color:#99582a;
+    display: block;
+    }
+    .menuitem :hover{
+        transform: scale(1.5,1.5);
+        transition: 0.4s;
+        color:#9c6644;
+    }
+    .parent{
+        width: 1200px;
+        height: 90vh;
+        background-color: #bb9557ad;
+        margin: 90px auto;
+        border-radius: 30px;
+        position: relative;
+    }
+    .main-title{
+        width: 80%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+        font-size: 100px;
+        margin: auto;
+    }
+    .d1{
+        width: 200px;
+        height: 125px;
+        margin-top: 10px;
+        position: absolute;
+        background-image: url(../imges/d1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change 3s ease-in-out 2s 1 forwards ;
+    }
+    .d2{
+        width: 200px;
+        height: 125px;
+        left: 1000px;
+        margin-top: 150px;
+        position: absolute;
+        background-image: url(../imges/d2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change-2 3s ease-in-out 5s 1 forwards ;
+    }
+    .d3{
+        width: 200px;
+        height: 125px;
+        margin-top: 290px;
+        position: absolute;
+        background-image: url(../imges/d3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change 3s ease-in-out 8s 1 forwards ;
+    }
+    .d4{
+        width: 200px;
+        height: 125px;
+        left: 1000px;
+        margin-top: 430px;
+        position: absolute;
+        background-image: url(../imges/d4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change-2 3s ease-in-out 11s 1 forwards ;
+    }
+    .d5{
+        width: 200px;
+        height: 125px;
+        margin-top: 570px;
+        position: absolute;
+        background-image: url(../imges/d5.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change 3s ease-in-out 14s 1 forwards  ;
+    }
+    .d6{
+        width: 200px;
+        height: 125px;
+        margin-top: 710px;
+        left: 1000px;
+        position: absolute;
+        background-image: url(../imges/d6.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        animation: change-2 3s ease-in-out 17s 1 forwards ;
+    }
+    .d-title{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 45px;
+        padding-top: 30px;
+        color: #99582a;
+        animation: change 3s ease-in-out 0s 1 forwards ;
+    }
+    .d1:hover{animation-play-state: paused;}
+    .d2:hover{animation-play-state: paused;}
+    .d3:hover{animation-play-state: paused;}
+    .d4:hover{animation-play-state: paused;}
+    .d5:hover{animation-play-state: paused;}
+    .d6:hover{animation-play-state: paused;}
+    .dt1:hover{animation-play-state: paused;}
+    .dt2:hover{animation-play-state: paused;}
+    .dt3:hover{animation-play-state: paused;}
+    .dt4:hover{animation-play-state: paused;}
+    .dt5:hover{animation-play-state: paused;}
+    .dt6:hover{animation-play-state: paused;}
+    .dt1{animation-delay: 2s;}
+    .dt2{animation-delay: 5s;}
+    .dt3{animation-delay: 8s;}
+    .dt4{animation-delay: 11s;}
+    .dt5{animation-delay: 14s;}
+    .dt6{animation-delay: 17s;}
+@keyframes change{
+    0%{width: 200px; left:0; font-size: 45px;}
+    50%{width: 400px; font-size: 65px;}
+    100%{left:1000px; font-size: 45px; width: 200px;}
+}
+@keyframes change-2{
+    0%{width: 200px; left:1000px; font-size: 45px;}
+    50%{width: 400px; font-size: 65px;}
+    100%{left:0px; font-size: 45px; width: 200px;}
+}
+
